@@ -1,20 +1,51 @@
+main a {
+    font-size: 1.3em;
+    font-weight: bold;
+    text-decoration: none;
+}
+
 body {
     background-color: indigo;
     color: yellow;
 }
 
+body {
+    font-family: Verdana, Arial, sans-serif;
+}
+
+div {
+    background-image: url(image/phodrawing.png);
+    background-position: center;
+}
+
+h1 {
+    font-family: Georgia, "Times New Roman", serif;
+    text-transform: uppercase;
+}
+
 h2 {
-    color: white
+    color: white;
+    font-family: Georgia, "Times New Roman", serif;
 }
 
 h3 {
-    color: white
+    color: white;
+    font-family: Georgia, "Times New Roman", serif;
 }
 
-#express {
-    color: bisque;
+ul {
+    list-style-type: circle;
 }
 
 .food {
     color: bisque;
+}
+
+#express {
+    color: black;
+}
+
+footer {
+    font-size: .80em;
+    font-style: italic;
 }
