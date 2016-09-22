@@ -4,33 +4,67 @@ main a {
     text-decoration: none;
 }
 
-body {
-    background-color: indigo;
-    color: yellow;
+main {
+    padding-left: 100px;
 }
 
 body {
+    background-color: indigo;
+    background-image: radial-gradient(white, indigo);
+    background-repeat: no-repeat;
+    color: yellow;
     font-family: Verdana, Arial, sans-serif;
 }
 
-div {
+#express {
     background-image: url(image/phodrawing.png);
     background-position: center;
+    background-repeat: no-repeat;
+    color: black;
+}
+
+div .wrapper {
+    width: 80%;
+}
+
+.shadow {
+    box-shadow: 3px 3px 3px yellow;
 }
 
 h1 {
     font-family: Georgia, "Times New Roman", serif;
+    margin: 20px;
+    text-shadow: 5px 5px 5px #666;
     text-transform: uppercase;
 }
 
 h2 {
     color: white;
     font-family: Georgia, "Times New Roman", serif;
+    margin: 20px;
 }
 
 h3 {
     color: white;
     font-family: Georgia, "Times New Roman", serif;
+    margin: 20px;
+}
+
+h4 {
+    margin: 20px;
+}
+
+h5 {
+    margin: 20px;
+}
+
+h6 {
+    background-image: url(image/spoon2.taste.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 50px;
+    margin: 20px;
+    width: 1000px;
 }
 
 ul {
@@ -41,8 +75,11 @@ ul {
     color: bisque;
 }
 
-#express {
-    color: black;
+.tran {
+    background-color: indigo;
+    border-radius: 10px;
+    opacity: 0.8;
+    padding: 15px 15px;
 }
 
 footer {
