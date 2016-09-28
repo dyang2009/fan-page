@@ -54,10 +54,21 @@ h2 {
 }
 
 h3 {
-    color: white;
+    color: indigo;
     font-family: Georgia, "Times New Roman", serif;
     margin: 20px;
     padding: 50px;
+    text-align: center;
+}
+
+.float1 {
+    float: right;
+    margin: 0 0 5px 5px;
+}
+
+ol {
+    color: indigo;
+    text-align: center;
 }
 
 h4 {
